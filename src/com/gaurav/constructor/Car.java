@@ -1,4 +1,4 @@
-package com.gaurav;
+package com.gaurav.constructor;
 
 public class Car {
     private String model;

@@ -1,4 +1,4 @@
-package com.pankaj;
+package com.pankaj.test;
 
 public class MaxNumber {
 

@@ -1,4 +1,4 @@
-package com.gaurav;
+package com.gaurav.constructor;
 
 public class Book {
     private String title;
