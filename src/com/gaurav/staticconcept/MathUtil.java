@@ -9,6 +9,4 @@ public class MathUtil {
         int output = MathUtil.square(2);
         System.out.println(output);
     }
-
-
 }
