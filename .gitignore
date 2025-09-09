@@ -1,0 +1,21 @@
+    # Ignore a specific file
+    my_secret_file.txt
+
+    # Ignore all files with a specific extension
+    *.log
+    *.temp
+
+    # Ignore an entire directory
+    build/
+    node_modules/
+    out/production
+
+    # Ignore all files with a specific name in any directory
+    debug.log
+
+    # Ignore all files in a directory but include a specific sub-file
+    /logs/*
+    !/logs/important.log
+
+    # Ignore a file in the same directory as the .gitignore file
+    /config.ini

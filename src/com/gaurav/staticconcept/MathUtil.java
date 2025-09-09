@@ -1,4 +1,4 @@
-package com.gaurav.util;
+package com.gaurav.staticconcept;
 
 public class MathUtil {
     public static int square(int a){
@@ -9,6 +9,4 @@ public class MathUtil {
         int output = MathUtil.square(2);
         System.out.println(output);
     }
-
-
 }
