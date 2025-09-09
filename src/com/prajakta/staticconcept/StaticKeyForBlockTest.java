@@ -1,4 +1,4 @@
-package com.prajakta.statickey;
+package com.prajakta.staticconcept;
 
 public class StaticKeyForBlockTest {
     public static void main(String[] args) {
