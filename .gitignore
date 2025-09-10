@@ -8,7 +8,7 @@
     # Ignore an entire directory
     build/
     node_modules/
-    out/production
+    /out/production/
 
     # Ignore all files with a specific name in any directory
     debug.log
