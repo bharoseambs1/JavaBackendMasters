@@ -4,5 +4,6 @@ package com.satish.finalkeywordconcept;
 }*/
 
 //Cannot inherit from final 'com.satish.finalkeywordconcept.FinalTestClass'
+/*
 public class FinalClassTesting extends FinalTestClass{
-}
+}*/
