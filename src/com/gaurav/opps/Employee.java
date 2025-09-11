@@ -1,0 +1,14 @@
+package com.gaurav.opps;
+
+public class Employee {
+
+    double salary;
+
+    public Employee(double salary) {
+        this.salary = salary;
+    }
+
+    void salary(double salary) {
+         System.out.println(salary);
+    }
+}

@@ -1,6 +1,6 @@
 package com.prajakta.finalkeywordconcept;
 
-public class FinalkeyTest {
+public class FinalKeyTest {
     int a = 10;
     final int b = 10;
 
@@ -8,11 +8,11 @@ public class FinalkeyTest {
 
     public static void main(String[] args) {
 
-        FinalkeyTest obj1 = new FinalkeyTest();
+        FinalKeyTest obj1 = new FinalKeyTest();
         obj1.a = 20;
         System.out.println(obj1.b);
 
-        //obj1.j = 20;  //Cannot assign a value to final variable 'j'
-        //System.out.println(obj1.j);
+        //obj1.b = 20;  //Cannot assign a value to final variable 'j'
+        //System.out.println(obj1.b);
     }
 }
