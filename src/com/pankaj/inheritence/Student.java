@@ -1,7 +1,5 @@
 package com.pankaj.inheritence;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Student extends Person{
     int StudentId;
     String course;
