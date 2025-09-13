@@ -1,4 +1,4 @@
-package com.gaurav.opps;
+package com.gaurav.opps.inheritance;
 
 public class Bike extends Vehicle {
     void heroBike(){
