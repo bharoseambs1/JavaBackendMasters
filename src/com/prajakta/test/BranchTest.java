@@ -1,10 +1,8 @@
-package com.prajakta.Test;
+package com.prajakta.test;
 
-public class Branchtest {
+public class BranchTest {
     public static void main(String[] args) {
-
         System.out.println("Message from Branchtest") ;
-
     }
 }
 
