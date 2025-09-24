@@ -1,4 +1,4 @@
-package com.sneha.Collections;
+package com.sneha.collections;
 
 import java.util.HashSet;
 import java.util.Set;

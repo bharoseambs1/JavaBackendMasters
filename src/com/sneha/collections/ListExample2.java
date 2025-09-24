@@ -1,10 +1,10 @@
-package com.sneha.Collections;
+package com.sneha.collections;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ListExample2 {
-    public static void main(String[]args) {
+    public static void main(String[] args) {
         List<Integer> numbers = new ArrayList<>();
         for (int i = 1; i <= 10; i++) {
             numbers.add(i);
@@ -13,6 +13,6 @@ public class ListExample2 {
         numbers.add(2, 99);                    //insert 99 at 3rd position (index 2)
         System.out.println("Update List: " + numbers);
     }
-        }
+}
 
 
