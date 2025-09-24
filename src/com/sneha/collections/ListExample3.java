@@ -1,4 +1,4 @@
-package com.sneha.Collections;
+package com.sneha.collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
