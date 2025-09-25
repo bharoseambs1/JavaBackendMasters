@@ -10,6 +10,7 @@ public class CollectionCommonTest {
         //Satish - code starts here
         //Vedansh - code starts here
         //Gaurav - code starts here
+        //Sneha - code starts here
         HashSet<String> set = new HashSet<>(Arrays.asList("Apple","Banana","Apple","Mango"));
         TreeSet<String> sorted = new TreeSet<>(set); // sorting
         System.out.println("Sorted Set: " + sorted);
@@ -17,5 +18,6 @@ public class CollectionCommonTest {
         //Satish - code ends here
         //Vedansh - code ends here
         //Gaurav - code ends here
+        //YourName- code ends here
     }
 }
