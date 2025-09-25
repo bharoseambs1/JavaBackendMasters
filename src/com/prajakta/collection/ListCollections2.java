@@ -1,5 +1,8 @@
 package com.prajakta.collection;
-import java.util.*;
+import java.util.Collections;
+import java.util.List;
+import java.util.Arrays;
+
 public class ListCollections2 {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(10, 20, 30, 20, 40, 10, 50);

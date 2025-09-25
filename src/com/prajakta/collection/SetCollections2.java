@@ -1,5 +1,9 @@
 package com.prajakta.collection;
-import java.util.*;
+import java.util.Collections;
+import java.util.Arrays;
+import java.util.Set;
+import java.util.HashSet;
+
 public class SetCollections2 {
     public static void main(String[] args) {
         Set<Integer> numbers = new HashSet<>(Arrays.asList(15, 5, 30, 10, 25));

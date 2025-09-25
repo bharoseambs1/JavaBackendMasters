@@ -1,6 +1,7 @@
 package com.prajakta.collection;
+import java.util.List;
+import java.util.ArrayList;
 
-     import java.util.*;
     public class ArrayListExample {
         public static void main(String[] args) {
             List<String> list = new ArrayList<>();

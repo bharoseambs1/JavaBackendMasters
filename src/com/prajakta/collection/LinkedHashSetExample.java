@@ -1,5 +1,8 @@
 package com.prajakta.collection;
-import java.util.*;
+
+import java.util.Set;
+import java.util.LinkedHashSet;
+
 public class LinkedHashSetExample {
     public static void main(String[] args) {
         Set<String> set = new LinkedHashSet<>();

@@ -1,5 +1,8 @@
 package com.prajakta.collection;
-import java.util.*;
+
+import java.util.Set;
+import java.util.HashSet;
+
 public class HashSetExample {
     public static void main(String[] args) {
         Set<String> set = new HashSet<>();
