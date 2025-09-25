@@ -1,5 +1,8 @@
 package com.prajakta.collection;
-import java.util.*;
+
+import java.util.List;
+import java.util.ArrayList;
+
 public class ListEg2 {
     public static void main(String[] args) {
         List<Integer> numbers = new ArrayList<>();
