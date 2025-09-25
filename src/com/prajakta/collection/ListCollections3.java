@@ -1,8 +1,8 @@
 package com.prajakta.collection;
-   import java.util.Collections;
-   import java.util.List;
-   import java.util.ArrayList;
-   import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ListCollections3 {
     public static void main(String[] args) {

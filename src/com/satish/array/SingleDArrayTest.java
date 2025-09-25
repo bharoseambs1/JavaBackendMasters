@@ -1,7 +1,5 @@
 package com.satish.array;
 
-import java.util.Arrays;
-
 public class SingleDArrayTest {
     public static void main(String[] args) {
 
@@ -44,7 +42,6 @@ public class SingleDArrayTest {
         }catch (Exception e){}
 
 
-        //Arrays -- Collections
         System.out.println("on line no 43");
         for (int i : seiesOfTwo){
             System.out.print(i + " ");

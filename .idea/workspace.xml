@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2f0549-5ac2-476e-b3ef-49d63a311a8e" name="Changes" comment="Pankaj Static Demos">
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/finalkeywordconcept/FinalKeyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/Hierarchical/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/Hierarchical/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/Hierarchical/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/Hierarchical/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/Hierarchical/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/multilevel/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/multilevel/BabyDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/multilevel/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/multilevel/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/single/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/single/StdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/single/Student.java" afterDir="false" />
+    <list default="true" id="ea2f0549-5ac2-476e-b3ef-49d63a311a8e" name="Changes" comment="Branch test file commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Prajkta-main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -44,15 +36,15 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/bharoseambs1/JavaBackendMasters.git&quot;,
-    &quot;accountId&quot;: &quot;a6ee1f68-dd00-47cb-bc0a-38c928a92bbd&quot;
+    &quot;accountId&quot;: &quot;bfa3f474-069a-4dad-a537-f3eca8b99dd5&quot;
   }
 }</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
+    &quot;associatedIndex&quot;: 5
+    }</component>
   <component name="ProjectId" id="32CBVMqWoGPoRQeogZh71iN74Xo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,22 +52,38 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayListExample.executor": "Run",
+    "Application.CollectionDemo.executor": "Run",
+    "Application.CollectionTest.executor": "Run",
     "Application.FinalKeyTest.executor": "Run",
+    "Application.HashSetExample.executor": "Run",
+    "Application.LinkedHashSetExample.executor": "Run",
+    "Application.LinkedListExample.executor": "Run",
+    "Application.ListComparison.executor": "Run",
+    "Application.ListTest.executor": "Run",
+    "Application.PriorityQueueExample.executor": "Run",
+    "Application.SingleDArrayTest.executor": "Run",
+    "Application.StackExample.executor": "Run",
+    "Application.TreeSetExample.executor": "Run",
+    "Application.TwoDArrayTest.executor": "Debug",
+    "Application.VectorExample.executor": "Run",
     "Application.com.vikas.finalkeywordconcept.FinalKeyTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/pankaj/IdeaProjects/stumanagement"
+    "last_opened_file_path": "D:/2025Projects/elementa/vouchersystem",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.vikas.finalkeywordconcept.FinalKeyTest">
-    <configuration name="FinalKeyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.prajakta.finalkeywordconcept.FinalKeyTest" />
+  <component name="RunManager" selected="Application.PriorityQueueExample">
+    <configuration name="LinkedHashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satish.collection.LinkedHashSetExample" />
       <module name="JavaBackendMasters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.prajakta.finalkeywordconcept.*" />
+          <option name="PATTERN" value="com.satish.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +91,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.vikas.finalkeywordconcept.FinalKeyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vikas.finalkeywordconcept.FinalKeyTest" />
+    <configuration name="PriorityQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satish.collection.PriorityQueueExample" />
       <module name="JavaBackendMasters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vikas.finalkeywordconcept.*" />
+          <option name="PATTERN" value="com.satish.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satish.collection.StackExample" />
+      <module name="JavaBackendMasters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satish.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satish.collection.TreeSetExample" />
+      <module name="JavaBackendMasters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satish.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VectorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satish.collection.VectorExample" />
+      <module name="JavaBackendMasters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satish.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +145,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.vikas.finalkeywordconcept.FinalKeyTest" />
-        <item itemvalue="Application.FinalKeyTest" />
+        <item itemvalue="Application.VectorExample" />
+        <item itemvalue="Application.TreeSetExample" />
+        <item itemvalue="Application.StackExample" />
+        <item itemvalue="Application.PriorityQueueExample" />
+        <item itemvalue="Application.LinkedHashSetExample" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ea2f0549-5ac2-476e-b3ef-49d63a311a8e" name="Changes" comment="" />
@@ -159,7 +210,63 @@
       <option name="project" value="LOCAL" />
       <updated>1757429080265</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1D array example">
+      <option name="closed" value="true" />
+      <created>1758039393686</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758039393686</updated>
+    </task>
+    <task id="LOCAL-00008" summary="programs arrays and collection">
+      <option name="closed" value="true" />
+      <created>1758724636195</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758724636195</updated>
+    </task>
+    <task id="LOCAL-00009" summary="programs arrays and collection">
+      <option name="closed" value="true" />
+      <created>1758724772098</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758724772098</updated>
+    </task>
+    <task id="LOCAL-00010" summary="collection common test">
+      <option name="closed" value="true" />
+      <created>1758724839002</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1758724839002</updated>
+    </task>
+    <task id="LOCAL-00011" summary="collection common test main method">
+      <option name="closed" value="true" />
+      <created>1758724899978</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758724899978</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Collection common class">
+      <option name="closed" value="true" />
+      <created>1758728179730</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1758728179730</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Branch test file commit">
+      <option name="closed" value="true" />
+      <created>1758813109529</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1758813109529</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +284,12 @@
     <MESSAGE value="Pankaj first push" />
     <MESSAGE value="Pankaj Max Num Program" />
     <MESSAGE value="Pankaj Static Demos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pankaj Static Demos" />
+    <MESSAGE value="1D array example" />
+    <MESSAGE value="programs arrays and collection" />
+    <MESSAGE value="collection common test" />
+    <MESSAGE value="collection common test main method" />
+    <MESSAGE value="Collection common class" />
+    <MESSAGE value="Branch test file commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Branch test file commit" />
   </component>
 </project>

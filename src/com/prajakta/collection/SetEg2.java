@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Arrays;
 import java.util.Set;
 import java.util.HashSet;
+
 public class SetEg2 {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 2, 3, 4, 4, 5);
