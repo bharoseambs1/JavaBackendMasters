@@ -4,7 +4,7 @@ import java.util.*;
 
 public class MapCollectionDemo {
     public static void main(String[] args) {
-        //Satish: Start coding from here
+        //Vikas: Start coding from here
         // 1. Storing data in HashMap
         Map<Integer, String> map = new HashMap<>();
         map.put(3, "Banana");
@@ -48,7 +48,7 @@ public class MapCollectionDemo {
         for (Map.Entry<Integer, String> entry : map.entrySet()) {
             System.out.println(entry.getKey() + " => " + entry.getValue());
         }
-        //Satish: Start coding from here
+        //Vikas: Start coding from here
 
 
     }
