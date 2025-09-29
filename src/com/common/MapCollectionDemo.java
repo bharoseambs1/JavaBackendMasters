@@ -27,12 +27,25 @@ public class MapCollectionDemo {
         }
 
         // 3. Sorting Map by Keys using TreeMap
-        Map<Integer, String> sortedByKey = new TreeMap<>(map);
-        System.out.println("Sorted by Key: " + sortedByKey);
+//        Map<Integer, String> sortedByKey = new TreeMap<>(map);
+//        System.out.println("Sorted by Key: " + sortedByKey);
+
+        Map<Integer, String> sortedByKey1 = new TreeMap<>();
+        map.entrySet().stream()
+                .filter(e -> e.getKey() != null)   // exclude null keys
+                .forEach(e -> sortedByKey1.put(e.getKey(), e.getValue()));
+
+        System.out.println("Sorted by Key: " + sortedByKey1);
 
         // 4. Sorting Map by Values
+//        List<Map.Entry<Integer, String>> list = new ArrayList<>(map.entrySet());
+//        list.sort(Map.Entry.comparingByValue());
+//        System.out.println("Sorted by Value: " + list);
+
         List<Map.Entry<Integer, String>> list = new ArrayList<>(map.entrySet());
-        list.sort(Map.Entry.comparingByValue());
+        list.sort(Map.Entry.comparingByValue(
+                Comparator.nullsLast(String::compareTo)   // handles nulls safely
+        ));
         System.out.println("Sorted by Value: " + list);
 
         // 5. Manipulation - Update value
@@ -47,6 +60,9 @@ public class MapCollectionDemo {
         System.out.println("Iterating through Map:");
         for (Map.Entry<Integer, String> entry : map.entrySet()) {
             System.out.println(entry.getKey() + " => " + entry.getValue());
+
+            System.out.println("Using forEach + Lambda:");
+            map.forEach((key, value) -> System.out.println(key + " => " + value));
         }
         //Vikas: Start coding from here
 
