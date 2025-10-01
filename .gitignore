@@ -10,6 +10,8 @@ build/
 node_modules/
 out/production/
 /.idea/
+/.idea/misc.xml
+/.idea/workspace.xml
 
 # Ignore all files with a specific name in any directory
 debug.log
