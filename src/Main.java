@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Hello Prajkta!");
         System.out.println("Hello Sneha!");
         System.out.println("Hello Shraddha!");
-
+        System.out.println("Sonar Test!");
         //
     }
 }
