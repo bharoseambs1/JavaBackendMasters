@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.TreeSet;
 
 public class CollectionCommonTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) {   
 
         //Satish - code starts here
         //Vedansh - code starts here
