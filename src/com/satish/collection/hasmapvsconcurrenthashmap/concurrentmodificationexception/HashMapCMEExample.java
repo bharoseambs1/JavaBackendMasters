@@ -2,6 +2,9 @@ package com.satish.collection.hasmapvsconcurrenthashmap.concurrentmodificationex
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.CopyOnWriteArraySet;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -10,6 +13,9 @@ public class HashMapCMEExample {
     public static void main(String[] args) throws InterruptedException {
         // 1. Unsafe collection: HashMap is NOT thread-safe
         Map<String, Integer> userScores = new HashMap<>();
+        Map<String, Integer> userScores1 = new ConcurrentHashMap<>();
+        CopyOnWriteArraySet set = new CopyOnWriteArraySet();
+        CopyOnWriteArrayList list = new CopyOnWriteArrayList();
         userScores.put("Alice", 100);
         userScores.put("Bob", 150);
         userScores.put("Charlie", 200);
