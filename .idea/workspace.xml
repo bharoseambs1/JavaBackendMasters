@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2f0549-5ac2-476e-b3ef-49d63a311a8e" name="Changes" comment="Pankaj Static Demos">
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/finalkeywordconcept/FinalKeyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/Hierarchical/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/Hierarchical/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/Hierarchical/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/Hierarchical/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/Hierarchical/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/multilevel/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/multilevel/BabyDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/multilevel/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/multilevel/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/single/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/single/StdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vikas/inheritance/single/Student.java" afterDir="false" />
+    <list default="true" id="ea2f0549-5ac2-476e-b3ef-49d63a311a8e" name="Changes" comment="java 8 features functional interface and lambda expression">
+      <change afterPath="$PROJECT_DIR$/src/com/satish/java8features/comparablevscomparator/ABC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBackendMasters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBackendMasters.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBackendMasters/com/prajakta/statickey/StaticKeyForBlockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/satish/java8features/FunITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satish/java8features/FunITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +20,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="satish-main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -41,10 +39,13 @@
     &quot;assignee&quot;: &quot;PANKAJWAGH11&quot;
   }
 }</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="7f9ecc0bfb115eaa4e8a24c7997538ec7f948e11" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/bharoseambs1/JavaBackendMasters.git&quot;,
-    &quot;accountId&quot;: &quot;a6ee1f68-dd00-47cb-bc0a-38c928a92bbd&quot;
+    &quot;accountId&quot;: &quot;bfa3f474-069a-4dad-a537-f3eca8b99dd5&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -60,22 +61,71 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BankingApp.executor": "Run",
+    "Application.ComparatorLambda.executor": "Run",
+    "Application.ComparatorPreJava8 (1).executor": "Run",
+    "Application.ComparatorPreJava8.executor": "Run",
+    "Application.ConcurrentHashMapCMEFix.executor": "Run",
+    "Application.CreateEmployee.executor": "Run",
+    "Application.CustomExceptionTest.executor": "Run",
+    "Application.DeleteEmployee.executor": "Run",
+    "Application.DownloadTask.executor": "Run",
+    "Application.ExceptionTest.executor": "Run",
+    "Application.ExecutorsExample.executor": "Run",
     "Application.FinalKeyTest.executor": "Run",
+    "Application.FunITest.executor": "Run",
+    "Application.HashMapCMEExample.executor": "Run",
+    "Application.HashMapDemo.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
+    "Application.HashMapInternalExample.executor": "Run",
+    "Application.LinkedHashMapExample.executor": "Run",
+    "Application.LogWriter.executor": "Run",
+    "Application.MapCollectionDemo.executor": "Run",
+    "Application.MapMethodsExample.executor": "Run",
+    "Application.MultiThreadExample.executor": "Run",
+    "Application.MyRunnable.executor": "Run",
+    "Application.MyThread.executor": "Run",
+    "Application.OptionalExample1.executor": "Run",
+    "Application.OptionalExample3.executor": "Run",
+    "Application.PersonComparable.executor": "Run",
+    "Application.SimpleQueryExample.executor": "Run",
+    "Application.SingleThreadExample.executor": "Run",
+    "Application.SyncDemo.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestEmployeeWithStreamAPI.executor": "Run",
+    "Application.TestMultiThreading.executor": "Run",
+    "Application.ThreadLifecycleDemo.executor": "Run",
+    "Application.ThrowsKeyword.executor": "Run",
+    "Application.TreeMapExample.executor": "Run",
+    "Application.TryCatchWithFinally.executor": "Run",
+    "Application.UpdateEmployee.executor": "Run",
     "Application.com.vikas.finalkeywordconcept.FinalKeyTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/pankaj/IdeaProjects/stumanagement"
+    "last_opened_file_path": "D:/Idea/JavaBackendMasters/lib",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.27148438",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "sonarlint"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.vikas.finalkeywordconcept.FinalKeyTest">
-    <configuration name="FinalKeyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.prajakta.finalkeywordconcept.FinalKeyTest" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea\JavaBackendMasters\lib" />
+      <recent name="D:\Idea\JavaBackendMasters\src\com\prajakta\collection" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OptionalExample3">
+    <configuration name="ComparatorLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satish.java8features.comparablevscomparator.ComparatorLambda" />
       <module name="JavaBackendMasters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.prajakta.finalkeywordconcept.*" />
+          <option name="PATTERN" value="com.satish.java8features.comparablevscomparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +133,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.vikas.finalkeywordconcept.FinalKeyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vikas.finalkeywordconcept.FinalKeyTest" />
+    <configuration name="ComparatorPreJava8 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satish.java8features.comparablevscomparator.ComparatorPreJava8" />
       <module name="JavaBackendMasters" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vikas.finalkeywordconcept.*" />
+          <option name="PATTERN" value="com.satish.java8features.comparablevscomparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComparatorPreJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satish.java8features.comparablevscomparator.ComparatorPreJava8" />
+      <module name="JavaBackendMasters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satish.java8features.comparablevscomparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satish.java8features.optionalclass.OptionalExample1" />
+      <module name="JavaBackendMasters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satish.java8features.optionalclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.satish.java8features.optionalclass.OptionalExample3" />
+      <module name="JavaBackendMasters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.satish.java8features.optionalclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,8 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.vikas.finalkeywordconcept.FinalKeyTest" />
-        <item itemvalue="Application.FinalKeyTest" />
+        <item itemvalue="Application.OptionalExample3" />
+        <item itemvalue="Application.OptionalExample1" />
+        <item itemvalue="Application.ComparatorLambda" />
+        <item itemvalue="Application.ComparatorPreJava8 (1)" />
+        <item itemvalue="Application.ComparatorPreJava8" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +251,135 @@
       <option name="project" value="LOCAL" />
       <updated>1757429080265</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="collection demo for Gaurav">
+      <option name="closed" value="true" />
+      <created>1759157624263</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759157624263</updated>
+    </task>
+    <task id="LOCAL-00008" summary="map collection examples">
+      <option name="closed" value="true" />
+      <created>1759223209966</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759223209966</updated>
+    </task>
+    <task id="LOCAL-00009" summary="map collection examples">
+      <option name="closed" value="true" />
+      <created>1759243527128</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759243527128</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Internal working of hashmap">
+      <option name="closed" value="true" />
+      <created>1759247664231</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759247664231</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added two xml files to ignore">
+      <option name="closed" value="true" />
+      <created>1759329425060</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759329425060</updated>
+    </task>
+    <task id="LOCAL-00012" summary=".github build yaml">
+      <option name="closed" value="true" />
+      <created>1759476467273</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759476467273</updated>
+    </task>
+    <task id="LOCAL-00013" summary="github build yaml">
+      <option name="closed" value="true" />
+      <created>1759476585726</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1759476585726</updated>
+    </task>
+    <task id="LOCAL-00014" summary="github build yaml">
+      <option name="closed" value="true" />
+      <created>1759476705005</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1759476705005</updated>
+    </task>
+    <task id="LOCAL-00015" summary="github build yaml deleted">
+      <option name="closed" value="true" />
+      <created>1759477851820</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1759477851820</updated>
+    </task>
+    <task id="LOCAL-00016" summary="github build yaml deleted">
+      <option name="closed" value="true" />
+      <created>1759477886662</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1759477886662</updated>
+    </task>
+    <task id="LOCAL-00017" summary="test file for yaml file">
+      <option name="closed" value="true" />
+      <created>1759478020896</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1759478020896</updated>
+    </task>
+    <task id="LOCAL-00018" summary="build file delete from outer folder">
+      <option name="closed" value="true" />
+      <created>1759478816106</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1759478816106</updated>
+    </task>
+    <task id="LOCAL-00019" summary="commit for sonar qube test">
+      <option name="closed" value="true" />
+      <created>1759479031778</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1759479031778</updated>
+    </task>
+    <task id="LOCAL-00020" summary="commiting classes till exception handling">
+      <option name="closed" value="true" />
+      <created>1760511766835</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1760511766835</updated>
+    </task>
+    <task id="LOCAL-00021" summary="till jdbc">
+      <option name="closed" value="true" />
+      <created>1761725834821</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1761725834821</updated>
+    </task>
+    <task id="LOCAL-00022" summary="java 8 features functional interface and lambda expression">
+      <option name="closed" value="true" />
+      <created>1761837476816</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1761837476816</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +397,33 @@
     <MESSAGE value="Pankaj first push" />
     <MESSAGE value="Pankaj Max Num Program" />
     <MESSAGE value="Pankaj Static Demos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pankaj Static Demos" />
+    <MESSAGE value="collection demo for Gaurav" />
+    <MESSAGE value="map collection examples" />
+    <MESSAGE value="Internal working of hashmap" />
+    <MESSAGE value="added two xml files to ignore" />
+    <MESSAGE value=".github build yaml" />
+    <MESSAGE value="github build yaml" />
+    <MESSAGE value="github build yaml deleted" />
+    <MESSAGE value="test file for yaml file" />
+    <MESSAGE value="build file delete from outer folder" />
+    <MESSAGE value="commit for sonar qube test" />
+    <MESSAGE value="commiting classes till exception handling" />
+    <MESSAGE value="till jdbc" />
+    <MESSAGE value="java 8 features functional interface and lambda expression" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 8 features functional interface and lambda expression" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.satish.exceptionhandling.InvalidAgeException" package="com.satish.exceptionhandling" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

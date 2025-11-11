@@ -66,7 +66,7 @@ public class FunITest {
         System.out.println("Sum is: " + sum);*/
 
 
-        List<Player> players = List.of(
+        /*List<Player> players = List.of(
             new Player(101, "Sachin", 26, "Mumbai"),
             new Player(102, "Saurabh", 29, "Kolkata"),
             new Player(103, "Rohit", 28, "Mumbai"),
@@ -79,9 +79,9 @@ public class FunITest {
         // 2. abstract method signature: List<String> getPlayerNames(List<Player> players);
 
         CricketInfoFI cifi = (List<Player> playerList) -> {
-            /*return playerList.stream()
+            *//*return playerList.stream()
                     .map(player -> player.name)
-                    .toList();*/
+                    .toList();*//*
 
             List<String> playerNames = new java.util.ArrayList<>();
 
@@ -93,23 +93,22 @@ public class FunITest {
         };
 
         List<String> playernamelist = cifi.getPlayerNames(players);
-        System.out.println("Player Names: " + playernamelist);
+        System.out.println("Player Names: " + playernamelist);*/
 
 
+        List<Player> players = List.of(
+                new Player(101, "Sachin", 26, "Mumbai"),
+                new Player(102, "Saurabh", 29, "Kolkata"),
+                new Player(103, "Rohit", 28, "Mumbai"),
+                new Player(104, "Laxman", 28, "Hyderabad"),
+                new Player(105, "MS Dhoni", 28, "Chennai")
+        );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        players //list collection
+                .stream()  //stream of players
+                .map(playerList -> playerList.city) //stream of player names  R apply(T t);
+                .forEach(System.out::println);  //void accept(T t);
+                //.forEach(player -> System.out.println(player));  //void accept(T t);
 
 
     }
